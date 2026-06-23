@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>David Ornstein</title>
+  <meta name="description" content="David Ornstein — developer and Visual Studio Code extension publisher." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>" />
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 36rem;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    .wave { font-size: 3.5rem; display: block; margin-bottom: 0.5rem; }
+    h1 { font-size: 2rem; margin: 0 0 0.5rem; letter-spacing: -0.02em; }
+    p { margin: 0.75rem 0; color: #94a3b8; }
+    a { color: #60a5fa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .domain { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: #cbd5e1; }
+    footer { margin-top: 2rem; font-size: 0.85rem; color: #64748b; }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="wave" role="img" aria-label="waving hand">👋</span>
+    <h1>Hello, I'm David Ornstein</h1>
+    <p>Developer and publisher of Visual Studio Code extensions.</p>
+    <p>This is the home of <span class="domain">davidorn.io</span> — more coming soon.</p>
+    <p><a href="https://github.com/dornstein">github.com/dornstein</a></p>
+    <footer>© <span id="year"></span> David Ornstein</footer>
+  </main>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
