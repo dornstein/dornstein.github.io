@@ -1,16 +1,20 @@
-# davidorn.io
+# dornstein.io
 
 Personal site for David Ornstein, served via GitHub Pages from this repository
-(`dornstein.github.io`) on the custom domain **davidorn.io**.
+(`dornstein/dornstein.io`) on the custom domain **dornstein.io**.
 
-Used as the verified-publisher domain for Visual Studio Code extensions.
+> **Migration in progress.** The site content is being moved here from the
+> `dornstein/about` repository so it can be served at <https://dornstein.io>.
+> Once dornstein.io is verified live, the `about` repository will be retired
+> (archived).
 
 ## How it works
 
-- Static single-page site (`index.html`) — no build step.
+- Static site (`index.html`) — no build step.
 - GitHub Pages publishes the `main` branch automatically on every push.
-- `CNAME` binds the site to the apex domain `davidorn.io`.
-- DNS for `davidorn.io` is managed in Cloudflare.
+- `CNAME` binds the site to the apex domain `dornstein.io`.
+- `.nojekyll` disables Jekyll so files are served exactly as committed.
+- DNS for `dornstein.io` is being configured.
 
 ## Local preview
 
